@@ -1,0 +1,113 @@
+.navbar{
+    background-color: rgb(62, 21, 62);
+}
+.navbar-brand img{
+    width: 120px;
+}
+#banner{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding-top: 5%;
+}
+.play-button{
+    width: 45px;
+    margin: 20px;
+}
+
+/* ---------------service section--------- */
+
+#services img{
+    width: 70px;
+    margin-top: 20px;
+}
+ .title::before{
+    content: "";
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: "";
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+
+/* è-------------testimonials section----- */
+
+.testimonial img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.testimonial{
+    border-left: 4px solid #7b1798;
+}
+
+/* ---------------social icon---- */
+
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/* ----------footer--------------- */
+
+#footer{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .bi{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+
+}
+
+.footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary{
+    box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+
+}
